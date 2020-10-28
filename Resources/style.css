@@ -164,6 +164,9 @@ section .title::after{
 
   
 /* home section styling */
+
+
+
 .home{
     display: flex;
     background: url('../Materials/Banner.jpg') no-repeat center;
@@ -594,12 +597,24 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1300px) {
+
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
     .home .max-width{
         margin-left: 0px;
     }
 }
 
 @media (max-width: 1104px) {
+
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -607,11 +622,23 @@ footer span a:hover{
 }
 
 @media (max-width: 991px) {
+
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
     .max-width{
         padding: 0 50px;
     }
 }
 @media (max-width: 947px){
+
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
     .menu-btn{
         display: block;
         z-index: 999;
@@ -677,11 +704,19 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
+    
     .max-width{
         padding: 0 23px;
     }
     .home .home-content .text-2{
         font-size: 60px;
+        
     }
     .home .home-content .text-3{
         font-size: 32px;
@@ -695,6 +730,12 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .home{
+        background: url('#');
+        background-color: rgb(236,121,74);
+    }
+    
+
     .home .home-content .text-2{
         font-size: 50px;
     }
