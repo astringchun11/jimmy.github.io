@@ -16,6 +16,7 @@
     <script src="./Resources/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="icon" href="./Materials/favicon.png" type="image/png"/>
     <title>Hey, hey you!</title>
 
 </head>
@@ -32,7 +33,7 @@
                     <li><a href="#about" class="menu-btn">About</a></li>
                     <li><a href="#services" class="menu-btn">Works</a></li>
                     <li><a href="#skills" class="menu-btn">Skills</a></li>
-                    <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
+                    <li><a href="#gallery" class="menu-btn">Gallery</a></li> 
                     <li><a href="#contact" class="menu-btn">Contact</a></li>
                     </ul>
             <div class="menu-btn">          
@@ -91,7 +92,7 @@
                             <p>個人專案<br>平台網站<br>遊戲語言交換平台<br>點擊前往網站</p>
             </div>
             </a>
-        </div><a href="https://docs.google.com/presentation/d/1bCXstx31CySOOoboPC0cTklai6yPeWkOC7vG48DT1jY/edit?usp=sharing" style="color: white;" >
+        </div><a href="#gallery" style="color: white;" >
         <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
@@ -162,6 +163,71 @@
 </div>
 </div>
 </div>
+</section>
+
+
+
+
+<section class="gallery" id="gallery">
+
+
+        <div class="max-width">
+            <h2 class="title">Gallery</h2>
+    <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="./Materials/Slider/jj2.jpg" alt="w1">
+          </div>
+          <div class="slide">
+            <img src="./Materials/Slider/SR4.jpg" alt="w2">
+          </div>
+          <div class="slide">
+            <img src="./Materials/Slider/HH1.jpg" alt="w3">
+          </div>
+          <div class="slide">
+            <img src="./Materials/Slider/JJ3.jpg" alt="w4">
+          </div>
+
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+
+        </div>
+    </div>
+        <!--manual navigation end-->
+      </div>
+     
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 3000);
+      </script>
+        
 </section>
 
     <!-- teams section start -->
@@ -289,7 +355,8 @@ Name</div>
                 <div class="head">
 Email</div>
 <div class="sub-title">astringchun11@gmail.com</div>
-
+</div>
+</section>
 
                     <!-- <div class="text">Message me</div> 
                     <form action="#">
@@ -313,9 +380,45 @@ Email</div>
                         </div>
 </form>
 </div>
-</div>-->
-</div>
-</section>
+</div>-->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- footer section start -->
     <footer>
