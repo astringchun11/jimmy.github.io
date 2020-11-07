@@ -603,29 +603,29 @@ footer span a:hover{
 .gallery {
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .gallery .title::after{
     content: "visual works";
 }
 
-.gallery{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .slider{
     
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
   }
   
   .slides{
     width: 500%;
-    height: 500px;
+    height: auto;
     display: flex;
   }
   
@@ -636,18 +636,20 @@ footer span a:hover{
   .slide{
     width: 20%;
     transition: 2s;
+    overflow: hidden;
   }
   
   .slide img{
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    height: auto;
+
   }
   
   /*css for manual slide navigation*/
   
   .navigation-manual{
-    position: absolute;
-    width: 800px;
+    position: relative;
+    width: auto;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -690,9 +692,9 @@ footer span a:hover{
   /*css for automatic navigation*/
   
   .navigation-auto{
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 800px;
+    width: 100%;
     justify-content: center;
     margin-top: 460px;
   }
@@ -763,9 +765,7 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
-    .slider {
-        width: 71%;
-         }
+
     .home{
         background: url('#');
         background-color: rgb(236,121,74);
@@ -837,9 +837,7 @@ footer span a:hover{
 
 @media (max-width: 690px) {
 
-    .slider {
-        width: 71%;
-         }
+
     .home{
         background: url('#');
         background-color: rgb(236,121,74);
@@ -866,9 +864,6 @@ footer span a:hover{
 
 @media (max-width: 500px) {
 
-    .slider {
-        width: 71%;
-         }
     .home{
         background: url('#');
         background-color: rgb(236,121,74);
